@@ -1,15 +1,24 @@
 <template>
+  <button @click="changePage"> MainPage</button>
   <MainPage></MainPage>
 </template>
 
 <script>
-import MainPage from './components/MainPage.vue'
+
+import MainPage from './components/MainPage.vue';
+
+
 
 export default {
   name: 'App',
   components: {
-    MainPage
-}
+    MainPage,
+},
+methods: {
+  changePage(){
+    this.MainPage.call
+  }
+},
 }
 </script>
 

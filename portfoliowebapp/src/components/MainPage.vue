@@ -1,7 +1,8 @@
 <template>
   <div>
-    <button v-bind:id="button1" @click="showText">Hi</button>
     <text>{{testText}}</text>
+    <text> HO </text>
+    
   </div>
 </template>
 
@@ -16,7 +17,7 @@ export default {
 
     methods: {
         showText(){
-             this.testText="Voll der Kuhle text wow"
+             //this.testText="Voll der Kuhle text wow"
         } 
     },
 
